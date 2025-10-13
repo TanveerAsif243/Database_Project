@@ -1,0 +1,70 @@
+INSERT INTO instructors (INS_ID, Name, Rank, Class, DeptID) VALUES
+-- 1. Computer Science & Engineering (DeptID = 1)
+('INS001', 'Dr. Mahmub Majumder', 'Professor', '09:00 AM - 10:00 AM', 1),
+('INS002', 'Dr. Ayesha Sultana', 'Associate Professor', '10:00 AM - 11:00 AM', 1),
+('INS003', 'Mr. Tanvir Rahman', 'Lecturer', '11:00 AM - 12:00 PM', 1),
+('INS004', 'Dr. Farhana Akter', 'Assistant Professor', '01:00 PM - 02:00 PM', 1),
+('INS005', 'Mr. Kamrul Hasan', 'Senior Lecturer', '02:00 PM - 03:00 PM', 1),
+
+-- 2. Electrical & Electronic Engineering (DeptID = 2)
+('INS006', 'Dr. Rezaul Karim', 'Professor', '09:00 AM - 10:00 AM', 2),
+('INS007', 'Dr. Shadia Rahman', 'Associate Professor', '10:00 AM - 11:00 AM', 2),
+('INS008', 'Mr. Sajid Hossain', 'Lecturer', '11:00 AM - 12:00 PM', 2),
+('INS009', 'Dr. Tania Chowdhury', 'Assistant Professor', '01:00 PM - 02:00 PM', 2),
+('INS010', 'Mr. Imtiaz Hossain', 'Senior Lecturer', '02:00 PM - 03:00 PM', 2),
+
+-- 3. Business Administration (DeptID = 3)
+('INS011', 'Dr. Nusrat Jahan', 'Professor', '09:00 AM - 10:00 AM', 3),
+('INS012', 'Dr. Farzana Rahman', 'Associate Professor', '10:00 AM - 11:00 AM', 3),
+('INS013', 'Mr. Abdullah Al Nakib', 'Lecturer', '11:00 AM - 12:00 PM', 3),
+('INS014', 'Dr. Imran Kabir', 'Assistant Professor', '01:00 PM - 02:00 PM', 3),
+('INS015', 'Ms. Mormi Mehtab', 'Senior Lecturer', '02:00 PM - 03:00 PM', 3),
+
+-- 4. English Literature (DeptID = 4)
+('INS016', 'Dr. Mahfuz Ahmed', 'Professor', '09:00 AM - 10:00 AM', 4),
+('INS017', 'Dr. Sabina Akter', 'Associate Professor', '10:00 AM - 11:00 AM', 4),
+('INS018', 'Mr. Newaj Chowdhury', 'Lecturer', '11:00 AM - 12:00 PM', 4),
+('INS019', 'Dr. Farida Sultana', 'Assistant Professor', '01:00 PM - 02:00 PM', 4),
+('INS020', 'Ms. Tasnim Rahman', 'Senior Lecturer', '02:00 PM - 03:00 PM', 4),
+
+-- 5. Mathematics & Statistics (DeptID = 5)
+('INS021', 'Dr. Shakila Khan', 'Professor', '09:00 AM - 10:00 AM', 5),
+('INS022', 'Dr. Rafiq Uddin', 'Associate Professor', '10:00 AM - 11:00 AM', 5),
+('INS023', 'Dr. Shaila Rahman', 'Assistant Professor', '11:00 AM - 12:00 PM', 5),
+('INS024', 'Ms. Tania Chowdhury', 'Senior Lecturer', '01:00 PM - 02:00 PM', 5),
+('INS025', 'Mr. Imtiaz Hossain', 'Lecturer', '02:00 PM - 03:00 PM', 5),
+
+-- 6. Physics Department (DeptID = 6)
+('INS026', 'Dr. Rezaul Hasan', 'Professor', '09:00 AM - 10:00 AM', 6),
+('INS027', 'Dr. Nusrat Jahan', 'Associate Professor', '10:00 AM - 11:00 AM', 6),
+('INS028', 'Mr. Sajid Hossain', 'Lecturer', '11:00 AM - 12:00 PM', 6),
+('INS029', 'Dr. Tania Rahman', 'Assistant Professor', '01:00 PM - 02:00 PM', 6),
+('INS030', 'Mr. Imran Hossain', 'Senior Lecturer', '02:00 PM - 03:00 PM', 6),
+
+-- 7. Chemistry Department (DeptID = 7)
+('INS031', 'Dr. Mahmud Ali', 'Professor', '09:00 AM - 10:00 AM', 7),
+('INS032', 'Dr. Sabina Akter', 'Associate Professor', '10:00 AM - 11:00 AM', 7),
+('INS033', 'Mr. Tanvir Hasan', 'Lecturer', '11:00 AM - 12:00 PM', 7),
+('INS034', 'Dr. Farhana Chowdhury', 'Assistant Professor', '01:00 PM - 02:00 PM', 7),
+('INS035', 'Ms. Priya Sarker', 'Senior Lecturer', '02:00 PM - 03:00 PM', 7),
+
+-- 8. Civil Engineering (DeptID = 8)
+('INS036', 'Dr. Imran Karim', 'Professor', '09:00 AM - 10:00 AM', 8),
+('INS037', 'Dr. Farzana Rahman', 'Associate Professor', '10:00 AM - 11:00 AM', 8),
+('INS038', 'Mr. Abdullah Hossain', 'Lecturer', '11:00 AM - 12:00 PM', 8),
+('INS039', 'Dr. Shaila Akter', 'Assistant Professor', '01:00 PM - 02:00 PM', 8),
+('INS040', 'Ms. Tasnim Sultana', 'Senior Lecturer', '02:00 PM - 03:00 PM', 8),
+
+-- 9. Economics Department (DeptID = 9)
+('INS041', 'Dr. Apurbo Karim', 'Professor', '09:00 AM - 10:00 AM', 9),
+('INS042', 'Dr. Sabina Rahman', 'Associate Professor', '10:00 AM - 11:00 AM', 9),
+('INS043', 'Mr. Rafiq Hasan', 'Lecturer', '11:00 AM - 12:00 PM', 9),
+('INS044', 'Dr. Farida Chowdhury', 'Assistant Professor', '01:00 PM - 02:00 PM', 9),
+('INS045', 'Ms. Tasnim Rahman', 'Senior Lecturer', '02:00 PM - 03:00 PM', 9),
+
+-- 10. Pharmacy Department (DeptID = 10)
+('INS046', 'Dr. Imran Hasan', 'Professor', '09:00 AM - 10:00 AM', 10),
+('INS047', 'Dr. Najia Akter', 'Associate Professor', '10:00 AM - 11:00 AM', 10),
+('INS048', 'Mr. Sajid Rahman', 'Lecturer', '11:00 AM - 12:00 PM', 10),
+('INS049', 'Dr. Tania Islam', 'Assistant Professor', '01:00 PM - 02:00 PM', 10),
+('INS050', 'Mr. Imtiaz Kobir Karim', 'Senior Lecturer', '02:00 PM - 03:00 PM', 10);

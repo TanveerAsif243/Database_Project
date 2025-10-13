@@ -1,0 +1,22 @@
+INSERT INTO Student (Sid, Sname, Address, Phone, DeptID)
+VALUES
+(24000001, 'Tanveer Ahmed', 'Dhaka, Bangladesh', '01710000001', 1),
+(25000002, 'Ayesha Khan', 'Chittagong, Bangladesh', '01820000002', 2),
+(21000003, 'Rahim Uddin', 'Sylhet, Bangladesh', '01930000003', 1),
+(22000004, 'John Paul', 'Rajshahi, Bangladesh', '01640000004', 3),
+(28000005, 'Hasan Ali', 'Khulna, Bangladesh', '01550000005', 2);
+
+
+INSERT INTO Student (Sid, Sname, Address, Phone, DeptID)
+VALUES
+(24000006, 'Mahmudul Hasan', 'Dhaka, Bangladesh', '01760000006', 1),
+(25000007, 'Shakila Sultana', 'Chittagong, Bangladesh', '01870000007', 2),
+(21000008, 'Arif Hossain', 'Sylhet, Bangladesh', '01980000008', 1),
+(22000009, 'Sadia Akter', 'Rajshahi, Bangladesh', '01690000009', 3),
+(28000010, 'Imran Kabir', 'Khulna, Bangladesh', '01510000010', 2),
+(24000011, 'Rafiq Chowdhury', 'Dhaka, Bangladesh', '01720000011', 1),
+(25000012, 'Farzana Rahman', 'Chittagong, Bangladesh', '01830000012', 2),
+(21000013, 'Mehedi Hasan', 'Sylhet, Bangladesh', '01940000013', 1),
+(22000014, 'Moumita Sarker', 'Rajshahi, Bangladesh', '01650000014', 3),
+(28000015, 'Abdullah Al Mamun', 'Khulna, Bangladesh', '01560000015', 2);
+
